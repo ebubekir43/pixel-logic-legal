@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+
+  <title>Pixel Logic – Account & Data Deletion</title>
+
+  <style>
+    :root {
+      --bg: #f7f5ef;
+      --surface: #ffffff;
+      --text: #191919;
+      --muted: #66645f;
+      --border: #dedbd2;
+      --link: #374635;
+      --danger-bg: #faf6f3;
+      --max-width: 860px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    main {
+      width: min(calc(100% - 32px), var(--max-width));
+      margin: 48px auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 48px;
+    }
+
+    h1, h2 {
+      line-height: 1.25;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 2rem;
+    }
+
+    h2 {
+      margin-top: 36px;
+      font-size: 1.25rem;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--link);
+      text-underline-offset: 3px;
+    }
+
+    ol, ul {
+      padding-left: 24px;
+    }
+
+    .box {
+      margin: 24px 0;
+      padding: 20px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .warning {
+      background: var(--danger-bg);
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 12px 18px;
+      border-radius: 10px;
+      background: var(--text);
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        width: 100%;
+        margin: 0;
+        border: 0;
+        border-radius: 0;
+        padding: 28px 20px 40px;
+        min-height: 100vh;
+      }
+
+      h1 {
+        font-size: 1.7rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Pixel Logic – Account &amp; Data Deletion</h1>
+
+    <p class="muted">
+      Last updated: October 27, 2026
+    </p>
+
+    <p>
+      Pixel Logic provides users with ways to request deletion of their
+      Pixel Logic account and associated cloud data.
+    </p>
+
+    <p>
+      You can delete your account directly inside the application or request
+      deletion by email if you no longer have access to the app.
+    </p>
+
+    <h2>Method 1 – Delete Your Account in Pixel Logic</h2>
+
+    <p>
+      The fastest way to delete your Pixel Logic account is from inside the
+      application.
+    </p>
+
+    <ol>
+      <li>Open Pixel Logic.</li>
+      <li>Sign in to the Google account linked to your Pixel Logic account.</li>
+      <li>Open <strong>Settings</strong>.</li>
+      <li>Find the Google / Cloud Save account section.</li>
+      <li>Tap <strong>Delete Account &amp; Cloud Data</strong>.</li>
+      <li>Review and confirm the deletion request.</li>
+      <li>Complete Google reauthentication if requested.</li>
+    </ol>
+
+    <div class="box warning">
+      <strong>Account deletion is permanent.</strong>
+      <br>
+      Deleted Pixel Logic cloud progress and purchased cloud hint balances
+      cannot be restored through Pixel Logic after deletion.
+    </div>
+
+    <h2>Method 2 – Request Deletion Without the App</h2>
+
+    <p>
+      If you cannot access Pixel Logic, you can request account and data
+      deletion by contacting the developer.
+    </p>
+
+    <p>
+      Email:
+      <a href="mailto:skyg66210@gmail.com?subject=Pixel%20Logic%20Account%20Deletion%20Request">
+        skyg66210@gmail.com
+      </a>
+    </p>
+
+    <a
+      class="button"
+      href="mailto:skyg66210@gmail.com?subject=Pixel%20Logic%20Account%20Deletion%20Request"
+    >
+      Request Account Deletion
+    </a>
+
+    <p>
+      In your request, provide only the minimum information necessary to
+      identify the Pixel Logic account, such as the Google account email used
+      with Pixel Logic.
+    </p>
+
+    <p>
+      Do not send:
+    </p>
+
+    <ul>
+      <li>Your Google password</li>
+      <li>Your payment card information</li>
+      <li>Your Google Play purchase token</li>
+      <li>Other sensitive credentials</li>
+    </ul>
+
+    <p>
+      We may ask for reasonable verification to prevent unauthorized deletion
+      of another person's account.
+    </p>
+
+    <h2>Data Deleted With Your Pixel Logic Account</h2>
+
+    <p>
+      When your account deletion request is completed, Pixel Logic deletes
+      account-linked data including:
+    </p>
+
+    <ul>
+      <li>Your Firebase Authentication account</li>
+      <li>Your cloud game progress</li>
+      <li>Your completed-level cloud data</li>
+      <li>Your cloud collection and artwork progress</li>
+      <li>Your account-linked statistics and streak information</li>
+      <li>Your Supabase purchased-hint wallet</li>
+      <li>Your account-linked paid-hint spending records</li>
+      <li>Account-specific cloud synchronization metadata</li>
+    </ul>
+
+    <h2>Data That May Be Retained</h2>
+
+    <p>
+      Pixel Logic may retain a limited amount of minimized technical data when
+      reasonably necessary for security, fraud prevention, abuse prevention,
+      duplicate purchase-grant prevention, dispute handling, or legal
+      compliance.
+    </p>
+
+    <p>
+      This may include:
+    </p>
+
+    <ul>
+      <li>An irreversible hash derived from a Google Play purchase token</li>
+      <li>The purchased product identifier</li>
+      <li>The amount or entitlement previously granted</li>
+      <li>Technical grant or consumption state</li>
+      <li>Relevant technical timestamps</li>
+    </ul>
+
+    <p>
+      After account deletion, retained anti-fraud records are designed not to
+      contain the deleted account's Firebase UID, email address, raw purchase
+      token, or Google Play order ID where those identifiers are not required
+      for security or legal purposes.
+    </p>
+
+    <h2>Google Play Purchases and Subscriptions</h2>
+
+    <p>
+      Deleting your Pixel Logic account does not automatically cancel,
+      refund, or erase purchases or subscriptions maintained by Google Play.
+    </p>
+
+    <p>
+      If you have an active Google Play subscription, you may need to manage
+      or cancel it separately through Google Play.
+    </p>
+
+    <p>
+      Google Play transaction records are controlled by Google and are subject
+      to Google's own policies and legal obligations.
+    </p>
+
+    <h2>Guest / Local-Only Data</h2>
+
+    <p>
+      If you use Pixel Logic without signing in, some gameplay information may
+      exist only on your device.
+    </p>
+
+    <p>
+      Local-only data can normally be removed by clearing Pixel Logic's app
+      storage or uninstalling the application.
+    </p>
+
+    <h2>Deletion Requests</h2>
+
+    <p>
+      We aim to process valid account deletion requests as soon as reasonably
+      possible after any necessary account verification.
+    </p>
+
+    <p>
+      Certain minimized technical records may be retained where necessary for
+      security, fraud prevention, legal obligations, or similar legitimate
+      purposes.
+    </p>
+
+    <h2>Contact</h2>
+
+    <p>
+      <strong>Developer:</strong> Ebubekir Kaygısız<br>
+      <strong>Email:</strong>
+      <a href="mailto:skyg66210@gmail.com">
+        skyg66210@gmail.com
+      </a>
+    </p>
+
+    <footer>
+      <p>
+        <a href="privacy.html">Privacy Policy</a>
+        &nbsp;•&nbsp;
+        <a href="terms.html">Terms of Use</a>
+      </p>
+
+      <p>
+        © 2026 Pixel Logic. All rights reserved.
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
